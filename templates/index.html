@@ -94,12 +94,13 @@
             <p class=" text-muted"><b>A stroke occurs when the blood supply to part of your brain is interrupted or
                 reduced, preventing brain tissue from getting oxygen and nutrients. Brain cells begin to die in minutes.</b>
             </p>
+            <p class="text-danger"><b>{{prediction_text}}</b></p>
         </div>
         <div class="container">
-            <form>
+            <form action="/" method="POST">
                 <div class="mb-3">
-                    <label for="exampleInputPassword1" id="gender" name="gender" class="form-label">Gender</label>
-                    <select class="form-select" aria-label="Default select example">
+                    <label for="exampleInputPassword1"  class="form-label">Gender</label>
+                    <select class="form-select" id="gender" name="gender" aria-label="Default select example">
                         <option selected>-- select gender --</option>
                         <option value="Male">Male</option>
                         <option value="Female">Female</option>
@@ -111,32 +112,32 @@
                     <input type="text" class="form-control" id="age" name="age" placeholder="Age">
                 </div>
                 <div class="mb-3">
-                    <label for="exampleInputPassword1" id="hypertension" name="hypertension" class="form-label">Hypertension</label>
-                    <select class="form-select" aria-label="Default select example">
+                    <label for="exampleInputPassword1"  class="form-label">Hypertension</label>
+                    <select class="form-select" id="hypertension" name="hypertension" aria-label="Default select example">
                         <option selected>-- select Hypertension --</option>
                         <option value="1">Yes</option>
                         <option value="0">No</option>
                     </select>
                 </div>
                 <div class="mb-3">
-                    <label for="exampleInputPassword1" id="disease" name="disease" class="form-label">Heart Disease</label>
-                    <select class="form-select" aria-label="Default select example">
+                    <label for="exampleInputPassword1"  class="form-label">Heart Disease</label>
+                    <select class="form-select" id="disease" name="disease" aria-label="Default select example">
                         <option selected>-- select Heart Disease --</option>
                         <option value="1">Yes</option>
                         <option value="0">No</option>
                     </select>
                 </div>
                 <div class="mb-3">
-                    <label for="exampleInputPassword1" id="married" name="married" class="form-label">Marrital status</label>
-                    <select class="form-select" aria-label="Default select example">
+                    <label for="exampleInputPassword1"  class="form-label">Marrital status</label>
+                    <select class="form-select" id="married" name="married" aria-label="Default select example">
                         <option selected>--select marrital status --</option>
                         <option value="Yes">Yes</option>
                         <option value="No">No</option>
                     </select>
                 </div>
                 <div class="mb-3">
-                    <label for="exampleInputPassword1" id="work" name="work" class="form-label">work type</label>
-                    <select class="form-select" aria-label="Default select example">
+                    <label for="exampleInputPassword1"  class="form-label">work type</label>
+                    <select class="form-select" id="work" name="work" aria-label="Default select example">
                         <option selected>-- select work type --</option>
                         <option value="Self-employed">Self-employed</option>
                         <option value="Private">Private</option>
@@ -146,8 +147,8 @@
                     </select>
                 </div>
                 <div class="mb-3">
-                    <label for="exampleInputPassword1" id="residence" name="residence" class="form-label">Residence Type</label>
-                    <select class="form-select" aria-label="Default select example">
+                    <label for="exampleInputPassword1"  class="form-label">Residence Type</label>
+                    <select class="form-select" id="residence" name="residence" aria-label="Default select example">
                         <option selected>-- Select residence type --</option>
                         <option value="Urban">Urban</option>
                         <option value="Rural">Rural</option>
@@ -162,8 +163,8 @@
                     <input type="text" class="form-control" id="bmi" name="bmi" placeholder="Body Mass Index (BMI)">
                 </div>               
                 <div class="mb-3">
-                    <label for="exampleInputPassword1" id="smoking" name="smoking" class="form-label">Smoking status</label>
-                    <select class="form-select" aria-label="Default select example">
+                    <label for="exampleInputPassword1"  class="form-label">Smoking status</label>
+                    <select class="form-select" id="smoking" name="smoking" aria-label="Default select example">
                         <option selected value="Unknown">-- Select smoking status if unknown --</option>
                         <option value="never smoked">never smoked</option>
                         <option value="formerly smoked">formerly smoked</option>
